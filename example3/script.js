@@ -39,7 +39,7 @@ function init() {
     loader.setLibraryPath( 'https://cdn.jsdelivr.net/npm/rhino3dm@7.11.1/' )
     
 
-    loader.load( 'Sphere__.3dm', function ( object ) {
+    loader.load( 'Parabola.3dm', function ( object ) {
 
         document.getElementById('loader').remove()
         
